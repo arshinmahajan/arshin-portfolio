@@ -390,7 +390,30 @@ font-size:34px;
 .coming-soon p{
 margin-top:16px;
 }
+.impact-grid{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:20px;
+}
 
+.impact-card{
+background:white;
+padding:32px;
+border-radius:28px;
+border:1px solid var(--border);
+box-shadow:var(--shadow);
+}
+
+.impact-card h3{
+font-size:38px;
+font-weight:800;
+color:var(--accent);
+}
+
+.impact-card p{
+margin-top:10px;
+color:var(--muted);
+}
 .principles{
 display:grid;
 grid-template-columns:repeat(4,1fr);
