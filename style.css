@@ -27,6 +27,36 @@ line-height:1.7;
 overflow-x:hidden;
 }
 
+body::before{
+content:'';
+position:fixed;
+top:-300px;
+right:-200px;
+width:700px;
+height:700px;
+background:radial-gradient(
+circle,
+rgba(99,102,241,.12),
+transparent 70%
+);
+z-index:-1;
+}
+
+body::after{
+content:'';
+position:fixed;
+bottom:-300px;
+left:-200px;
+width:700px;
+height:700px;
+background:radial-gradient(
+circle,
+rgba(99,102,241,.08),
+transparent 70%
+);
+z-index:-1;
+}
+
 img{
 max-width:100%;
 display:block;
