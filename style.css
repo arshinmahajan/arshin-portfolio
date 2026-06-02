@@ -241,16 +241,18 @@ justify-content:center;
 }
 
 .hero-right img{
-width:460px;
-height:460px;
-object-fit:cover;
-border-radius:40px;
+width:420px;
+height:420px;
 
-border:8px solid white;
+object-fit:cover;
+
+border-radius:50%;
+
+border:10px solid white;
 
 box-shadow:
-0 20px 80px rgba(99,102,241,.15),
-0 10px 40px rgba(0,0,0,.08);
+0 25px 80px rgba(99,102,241,.20),
+0 10px 40px rgba(0,0,0,.10);
 }
 
 .stats{
