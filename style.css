@@ -357,12 +357,20 @@ margin-top:12px;
 color:var(--muted);
 }
 
-.card-link{
+.card-actions{
+display:flex;
+gap:12px;
 margin-top:24px;
+flex-wrap:wrap;
+}
 
+.card-actions a{
+padding:10px 14px;
+border-radius:999px;
+background:#eef2ff;
 color:var(--accent);
-
-font-weight:700;
+font-size:13px;
+font-weight:600;
 }
 
 .coming-soon{
