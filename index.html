@@ -1,70 +1,195 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title>Arshin Mahajan</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arshin Mahajan | Product Manager</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<div class="hero">
+<nav>
+    <div class="logo">Arshin Mahajan</div>
 
-<h1>Arshin Mahajan</h1>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
 
-<h2>Product Manager | AI | Analytics | Fintech</h2>
+<section class="hero">
 
-<p>
-Building AI-powered products and enterprise platforms.
-</p>
+    <h1>
+        Building AI Products that solve
+        real business problems.
+    </h1>
 
-<a href="https://github.com/arshinmahajan">
-    View GitHub
-</a>
+    <p>
+        Senior Product Manager specializing in
+        AI, Analytics, Fintech and Enterprise SaaS.
+    </p>
 
-</div>
+    <div class="hero-buttons">
 
-<section>
+        <a href="#products" class="primary-btn">
+            View Products
+        </a>
 
-<h2>Featured Products</h2>
+        <a href="#contact" class="secondary-btn">
+            Contact Me
+        </a>
 
-<div class="product">
-
-<h3>NorthStar AI</h3>
-
-<p>
-AI-powered Product Strategy Agent
-</p>
-
-<a href="https://github.com/arshinmahajan/northstar-ai">
-View Project
-</a>
-
-</div>
-
-<p>
-AI Product Strategy Agent
-</p>
-
-<div class="product">
-
-<h3>AI Operations Intelligence Assistant</h3>
-
-<p>
-Conversational Analytics Platform
-</p>
-
-<a href="https://github.com/arshinmahajan/ai-ops-intelligence-assistant">
-View Project
-</a>
-
-</div>
-
-<p>
-AI-powered Analytics Copilot
-</p>
+    </div>
 
 </section>
+
+<section id="about" class="section">
+
+    <h2>About</h2>
+
+    <p>
+        Product Manager with experience building enterprise analytics,
+        fintech platforms, AI assistants and API-driven SaaS products.
+
+        Currently focused on creating AI-native experiences that help
+        businesses make smarter decisions faster.
+    </p>
+
+</section>
+
+<section id="products" class="section">
+
+    <h2>Featured Products</h2>
+
+    <div class="product-grid">
+
+        <div class="card">
+
+            <h3>NorthStar AI</h3>
+
+            <p>
+                AI Product Strategy Agent that transforms
+                feedback, business goals and customer insights
+                into roadmap recommendations.
+            </p>
+
+            <a href="northstar.html">
+                View Case Study →
+            </a>
+
+        </div>
+
+        <div class="card">
+
+            <h3>AI Operations Intelligence Assistant</h3>
+
+            <p>
+                Conversational analytics platform helping
+                leaders understand operational performance
+                through natural language.
+            </p>
+
+            <a href="aiops.html">
+                View Case Study →
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="experience" class="section">
+
+    <h2>Career Timeline</h2>
+
+    <div class="timeline">
+
+        <div class="timeline-item">
+            <h3>Senior Product Manager</h3>
+            <p>ADP • Analytics • AI • Fintech</p>
+        </div>
+
+        <div class="timeline-item">
+            <h3>Product Manager</h3>
+            <p>Incoming UKG</p>
+        </div>
+
+        <div class="timeline-item">
+            <h3>Product Specialist</h3>
+            <p>Fair Deal Associates</p>
+        </div>
+
+        <div class="timeline-item">
+            <h3>Software Engineer</h3>
+            <p>Accenture</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="resume" class="section">
+
+    <h2>Resume</h2>
+
+    <p>
+        Download my latest resume.
+    </p>
+
+    <a href="resume.pdf" class="primary-btn">
+        Download Resume
+    </a>
+
+</section>
+
+<section id="contact" class="section">
+
+    <h2>Let's Connect</h2>
+
+    <p>
+        Interested in AI Products,
+        Analytics Platforms,
+        Enterprise SaaS,
+        Product Leadership.
+    </p>
+
+    <div class="links">
+
+        <a href="https://linkedin.com">
+            LinkedIn
+        </a>
+
+        <a href="https://github.com/arshinmahajan">
+            GitHub
+        </a>
+
+    </div>
+
+</section>
+
+<footer>
+
+    © 2026 Arshin Mahajan
+
+</footer>
+
+<button id="themeToggle">
+    🌙
+</button>
+
+<script>
+const toggle = document.getElementById("themeToggle");
+
+toggle.onclick = () => {
+    document.body.classList.toggle("dark");
+};
+</script>
 
 </body>
 </html>
